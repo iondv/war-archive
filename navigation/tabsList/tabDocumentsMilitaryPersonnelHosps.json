@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "code": "tabDocumentsMilitaryPersonnelHosps",
+  "orderNumber": 30,
+  "type": 1,
+  "title": "",
+  "caption": "Документы о лечении военнослужащих в госпиталях",
+  "classname": "documentsMilitaryPersonnelHosps@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

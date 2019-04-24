@@ -1,0 +1,26 @@
+{
+  "namespace": "khv-archive-vov",
+  "code": "tabListsSummonedConvictedOp",
+  "orderNumber": 130,
+  "type": 1,
+  "title": "",
+  "caption": "Списки призванных из ИТЛ, осужденных",
+  "classname": "listsSummonedConvicted@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [
+  {
+      "property": "_creator",
+      "operation": 0,
+      "value": [
+        "$$uid"
+      ],
+      "nestedConditions": []
+    }
+  ],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

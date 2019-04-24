@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "sorted": true,
+      "caption": "Воинское звание",
+      "type": 1,
+      "property": "militaryRankCat",
+      "size": 2,
+      "maskName": null,
+      "mask": null,
+      "mode": 0,
+      "fields": [],
+      "columns": [],
+      "actions": null,
+      "commands": null,
+      "orderNumber": 20,
+      "required": false,
+      "visibility": null,
+      "enablement": null,
+      "obligation": null,
+      "readonly": false,
+      "selectionPaginated": true,
+      "validators": null,
+      "hint": "",
+      "historyDisplayMode": 0,
+      "tags": null,
+      "selConditions": [],
+      "selSorting": []
+    }
+  ],
+  "actions": null,
+  "allowSearch": false,
+  "pageSize": null,
+  "useEditModels": true,
+  "version": null,
+  "overrideMode": 1,
+  "commands": [
+    {
+      "id": "CREATE",
+      "caption": "Создать",
+      "visibilityCondition": "",
+      "enableCondition": "",
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "EDIT",
+      "caption": "Изменить",
+      "visibilityCondition": "",
+      "enableCondition": "",
+      "needSelectedItem": true,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "DELETE",
+      "caption": "Удалить",
+      "visibilityCondition": "",
+      "enableCondition": "",
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": true
+    }
+  ],
+  "metaVersion": "2.0.61.23689"
+}

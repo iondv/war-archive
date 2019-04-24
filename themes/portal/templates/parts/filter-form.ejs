@@ -1,0 +1,77 @@
+<!-- main-filter -->
+<%
+const staticPrefix = `${module}/vov/`;
+%>
+<div class="filter-form form" <% if (validate) {%> data-validate="true" <%}%> >
+
+  <div class="container">
+    <form method="GET" action="/<%= module %>/result">
+    <div class="filter-form-box">
+
+      <h2>ПОИСК ИНФОРМАЦИИ</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group required">
+            <input class="form-control value" type="text" name="surname" required="" placeholder="ФАМИЛИЯ *">
+            <div class="error-block"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group required">
+            <input class="form-control value" type="text" name="firstname" required="" placeholder="ИМЯ *">
+            <div class="error-block"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <input class="form-control value" type="text" name="secondname" placeholder="ОТЧЕСТВО">
+            <div class="error-block"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <input class="form-control value" type="text" name="dateBirth" placeholder="ГОД РОЖДЕНИЯ">
+            <div class="error-block"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group empty select-relation"
+               data-url="/portal/api/select/rank">
+            <select class="form-control value" name="rank">
+              <option></option>
+            </select>
+            <div class="select-placeholder">ВОИНСКОЕ ЗВАНИЕ</div>
+            <div class="error-block"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group empty select-relation"
+               data-url="/portal/api/select/district">
+            <select class="form-control value" name="place">
+              <option></option>
+            </select>
+            <div class="select-placeholder">РАЙОН</div>
+            <div class="error-block"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="required-alert">
+            <span class="text-large">*</span> - поля обязательны для заполнения</div>
+        </div>
+        <div class="col-md-4">
+          <button id="search" type="submit" class="search btn btn-primary-filled btn-lg full-width">
+            СДЕЛАТЬ ЗАПРОС
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>

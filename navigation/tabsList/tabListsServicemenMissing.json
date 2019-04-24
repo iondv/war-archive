@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "code": "tabListsServicemenMissing",
+  "orderNumber": 140,
+  "type": 1,
+  "title": "",
+  "caption": "Списки военнослужащих, пропавших без вести",
+  "classname": "listsServicemenMissing@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

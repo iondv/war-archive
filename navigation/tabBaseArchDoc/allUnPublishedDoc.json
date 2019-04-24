@@ -1,0 +1,26 @@
+{
+  "namespace": "khv-archive-vov",
+  "code": "allUnPublishedDoc",
+  "orderNumber": 30,
+  "type": 1,
+  "title": "",
+  "caption": "Неопубликованные документы",
+  "classname": "basicArchDoc@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [
+    {
+      "property": "isPublic",
+      "operation": 0,
+      "value": [
+        "false"
+      ],
+      "nestedConditions": []
+    }
+  ],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

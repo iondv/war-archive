@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "code": "tabBookAccParticipGreatPatrioticWar",
+  "orderNumber": 90,
+  "type": 1,
+  "title": "",
+  "caption": "Книга учета участников Великой Отечественной войны",
+  "classname": "bookAccParticipGreatPatrioticWar@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

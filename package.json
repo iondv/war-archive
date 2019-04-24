@@ -1,0 +1,28 @@
+{
+  "name": "khv-archive-vov",
+  "description": "Портал архивов ВОВ ХК. АНО \"Дальневосточный центр социальных технологий\"",
+  "version": "0.0.4",
+  "homepage": "https://github.com/iondv/war-archive",
+  "bugs": {
+    "url": "https://github.com/iondv/war-archive/issues"
+  },
+  "engines": {
+    "ion": "3.0.2"
+  },
+  "license": "gpl-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iondv/war-archive.git"
+  },
+  "ionModulesDependencies": {
+    "ionadmin": "3.0.1",
+    "registry": "3.0.1",
+    "portal": "1.4.0",
+    "dashboard": "1.1.7"
+  },
+  "ionMetaDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "canvas-prebuilt": "^2.0.0-alpha.14"
+  }
+}

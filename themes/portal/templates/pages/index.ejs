@@ -1,0 +1,47 @@
+<% layout('../layouts/main') -%>
+<%
+const staticPrefix = `${module}/vov/`;
+%>
+<% script('https://api-maps.yandex.ru/2.1/?lang=ru_RU&mode=release&coordorder=longlat') -%>
+<% script(`${staticPrefix}js/index.js`) -%>
+<% script(`${staticPrefix}js/result.js`) -%>
+
+<div class="body-banner">
+
+  <header>
+    <nav id="nav-scroll" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="portal"><img src="portal/vov/images/logo2.png" alt="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#top" class="smooth-scroll"><span>ГЛАВНАЯ</span></a></li>
+            <li><a href="#about" class="smooth-scroll"><span>О ПРОЕКТЕ</span></a></li>
+            <li><a href="#rules" class="smooth-scroll"><span>КАК ИСКАТЬ</span></a></li>
+            <li><a href="#contact" class="smooth-scroll"><span>КОНТАКТЫ</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <div class="banner-content text-center main-filter-form">
+        <%- partial('../parts/filter-form', {validate: false}) %>
+      </div>
+    </div>
+  </header>
+
+  <%- partial('../parts/main/about') %>
+
+  <%- partial('../parts/main/rules') %>
+
+  <%- partial('../parts/main/contact') %>
+
+</div>

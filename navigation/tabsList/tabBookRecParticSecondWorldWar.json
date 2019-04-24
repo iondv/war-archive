@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "code": "tabBookRecParticSecondWorldWar",
+  "orderNumber": 100,
+  "type": 1,
+  "title": "",
+  "caption": "Книга учета участников второй мировой войны",
+  "classname": "bookRecParticSecondWorldWar@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

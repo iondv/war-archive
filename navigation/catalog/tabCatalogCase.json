@@ -1,0 +1,17 @@
+{
+  "namespace": "khv-archive-vov",
+  "code": "tabCatalogCase",
+  "orderNumber": 15,
+  "type": 1,
+  "title": "",
+  "caption": "Справочник Дел",
+  "classname": "case@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

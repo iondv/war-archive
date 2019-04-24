@@ -1,0 +1,363 @@
+{
+  "namespace": "khv-archive-vov",
+  "globals": {
+    "moduleTitles": {
+      "registry": {
+        "description": "Реестр документов ВОВ ХК",
+        "order": 10,
+        "skipModules": true
+      },
+      "portal": "Портал поиска документов"
+    },
+    "plugins":{
+      "watermark": {
+        "module": "applications/khv-archive-vov/lib/watermark-overlay/preProcessor",
+        "initMethod": "init",
+        "initLevel": 0,
+        "options": {
+            "text": "Государственный архив Хабаровского края",
+            "font": {
+              "family": "Ubuntu Mono",
+              "name": "UbuntuMono-Regular",
+              "path": "applications/khv-archive-vov/fonts/UbuntuMono-R.ttf"
+            },
+            "fontSize": 72,
+            "fontColor": "rgba(255,255,255,0.5)",
+            "pattern" : true,
+            "ratio" : 50
+        }
+      },
+      "imageStorage": {
+        "options": {
+          "preProcessors": "ion://watermark"
+        }
+      }
+    }
+  },
+  "deployer": "built-in",
+  "modules": {
+    "registry": {
+      "globals": {
+        "listSearchOptions": {},
+        "eagerLoading": {
+          "*": {
+            "listsCalledRedandSovietArmy@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "bookAccParticipGreatPatrioticWar@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "bookDemobilizSovietArmy@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "bookRecParticSecondWorldWar@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "bookRecSearchFormerServicemen@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "booksReceivedDeliveredNotices@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "documentsMilitaryPersonnelHosps@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+
+            "listDeadSoldier@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "listsDeadMissingMilitary@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "listsMobilizedIndustry@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "listsRepatriatedCitizens@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "listsServicemenMissing@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "listsSummonedConvicted@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+            "basicArchDoc@khv-archive-vov": {
+              "item": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ],
+              "list": [
+                "archLinkDoc.linkInventory.fond.codeFond",
+                "archLinkDoc.linkInventory.numInventory"
+              ]
+            },
+			"objectScanFile@khv-archive-vov": {
+              "item": [
+                "linkCase.linkInventory.fond.codeFond",
+                "linkCase.linkInventory.numInventory"
+              ],
+              "list": [
+                "linkCase.linkInventory.fond.codeFond",
+                "linkCase.linkInventory.numInventory"
+              ]
+            },
+            "catalogFond@khv-archive-vov": {
+              "item": [
+                "inventory.archCase.numCase"
+              ]
+            },
+            "case@khv-archive-vov": {
+              "create": [
+                "linkInventory.fond.codeFond",
+                "linkInventory.numInventory"
+              ],
+              "item": [
+                "linkInventory.fond.codeFond",
+                "linkInventory.numInventory"
+              ],
+              "list": [
+                "linkInventory.fond.codeFond",
+                "linkInventory.numInventory"
+              ]
+            }
+          }
+        },
+        "storage": {
+          "objectScanFile@khv-archive-vov": {
+            "scanFile": "/${class}/wow_${attr}/${dddd}/"
+          }
+        },
+        "defaultPath": "",
+        "inlineForm": true,
+        "navigation": {
+          "namespaces": {
+            "khv-archive-vov": "Реестр документов ВОВ ХК"
+          },
+          "menus": {
+            "left": [
+              "khv-archive-vov@tabBaseArchDoc",
+              "khv-archive-vov@tabsList",
+              "khv-archive-vov@catalog",
+			        "khv-archive-vov@workPlaceOperator"
+            ]
+          }
+        },
+        "templates": [],
+        "di": {
+          "dataRepo": {
+            "module": "core/impl/datarepository/ionDataRepository",
+            "options": {
+              "dataSource": "ion://Db",
+              "metaRepository": "ion://metaRepo",
+              "fileStorage": "ion://fileStorage",
+              "imageStorage": "ion://imageStorage",
+              "log": "ion://sysLog",
+              "keyProvider": {
+                "name": "keyProvider",
+                "module": "core/impl/meta/keyProvider",
+                "options": {
+                  "metaRepo": "ion://metaRepo"
+                }
+              },
+              "maxEagerDepth": 4
+            }
+          }
+        }
+      }
+    },
+    "ionadmin": {
+      "globals": {
+        "defaultPath": "ionadmin",
+        "securityParams": {
+          "resourceTypes": {
+            "*": {
+              "title": "Общие"
+            },
+            "n:::": {
+              "title": "Навигация"
+            },
+            "c:::": {
+              "title": "Классы"
+            },
+            "ionadmin:::": {
+              "title": "Модуль администрирования"
+            }
+          }
+        }
+      }
+    },
+    "portal": {
+      "import" : {
+        "src": "applications/khv-archive-vov/portal",
+        "namespace": "khv-archive-vov"
+      },
+      "globals": {
+        "portalName": "vov",
+        "default": "index",
+        "theme": "khv-archive-vov/themes/portal",
+        "templates":[
+          "applications/khv-archive-vov/themes/portal/templates"
+        ],
+        "statics":{
+          "vov": "applications/khv-archive-vov/themes/portal/static",
+          "vendor": "applications/khv-archive-vov/themes/portal/vendor"
+        },
+        "pageTemplates": {
+          "navigation": {
+            "index": "pages/index",
+            "result": "pages/result",
+            "detail": "pages/detail"
+          }
+        },
+        "di":{
+          "provider":{
+            "options": {
+              "adapters": {
+                "docs": {
+                  "name": "archDocAdapter",
+                  "module":"applications/khv-archive-vov/portal/adapter/DocSearchAdapter",
+                  "options": {
+                    "publicAttrs": [
+                      "archLinkDoc", "sheet", "districtArchDoc.nameDistrict", "surname", "firstname", "secondname", "dateBirth", "placeBirth", "education", "militNumTick",
+                      "partyMembership", "militaryUnit", "whenSentPart", "teamPartSent", "placeWorkBeforeConscription", "placeWork", "whenceMobilized", "whoAwarded", "whenAward",
+                      "seriaParticWar", "numParticWar", "dateParticWar", "distrMilUnit", "dateRegistration", "whenNoticeGiven", "whomNoticeGiven",
+                      "whereMobilize", "dateSummon", "placeSummon", "militaryRank.militaryRankCat", "placeBurial", "dateLeaving", "whenSendUnit", "whatUnitSen",
+                      "reasonLeaving", "constitution", "timeCaptivity", "locatCaptivity", "locatWork", "note", "storageForFile", "storageForFileBack", "scanFile", "urlScanFile",
+                      "dateMobilize"
+                    ],
+                    "notPublicAttrs": ["archLinkDoc", "sheet", "surname", "firstname", "secondname"],
+                    "dataRepo": "ion://dataRepo",
+                    "className": "basicArchDoc@khv-archive-vov"
+                  }
+                },
+                "rank": {
+                  "name": "rank",
+                  "module":"modules/portal/lib/impl/adapter/ClassAdapter",
+                  "options": {
+                    "dataRepo": "ion://dataRepo",
+                    "className": "catalogMilitaryRank@khv-archive-vov",
+                    "map": {}
+                  }
+                },
+                "district": {
+                  "name": "district",
+                  "module":"modules/portal/lib/impl/adapter/ClassAdapter",
+                  "options": {
+                    "dataRepo": "ion://dataRepo",
+                    "className": "catalogDistrict@khv-archive-vov",
+                    "map": {}
+                  }
+                }
+              }
+            }
+          },
+          "docsApi":{
+            "module": "applications/khv-archive-vov/portal/lib/controllers/docsApi",
+            "initMethod": "init",
+            "initLevel": 0,
+            "options": {
+              "module": "ion://module",
+              "sysLog": "ion://sysLog"
+            }
+          }
+        }
+      }
+    }
+  }
+}

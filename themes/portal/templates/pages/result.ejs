@@ -1,0 +1,70 @@
+<% layout('../layouts/main') -%>
+<%
+const staticPrefix = `${module}/vov/`;
+%>
+<% script(`${staticPrefix}js/result.js`) -%>
+
+<div class="body-banner">
+  <header>
+
+    <nav class="navbar navbar-default">
+      <%- partial("../parts/topnav") %>
+    </nav>
+
+    <div>
+      <div class="banner-content text-center result-filter-form">
+        <%- partial('../parts/filter-form', {validate: true}) %>
+      </div>
+    </div>
+  </header>
+
+  <section id="result" class="result-section">
+    <div class="container">
+      <div class="box result-box">
+        <div class="page-header text-center">
+          <h2>РЕЗУЛЬТАТЫ ПОИСКА</h2>
+          <div class="title-marker"></div>
+        </div>
+
+        <div class="table-responsive">
+          <table id="result-table" class="table result-table"></table>
+        </div>
+
+
+        <div class="restricted-data" style="display: none">
+          <h5 class="">
+            Информация о том, кого Вы ищете, есть в базе данных, но в соответствии с действующим
+            законодательством она не может быть в текущий момент опубликована на сайте.
+            Для того, чтобы ознакомиться с ней, Вы можете обратиться в
+            <a href="#" target="_blank">Государственный архив Хабаровского края</a>.
+          </h5>
+          <h5 class="" style="font-weight: normal">
+            Найдено <span class="counter"></span> документ(ов) с ограниченным доступом.
+            Обратите внимание на то, что при запросе важно предоставить документы о родстве или наследные права
+            и желательно указать номер фонда, описи, дела и страницы, которые выводятся в базе данных.
+          </h5>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="detail" class="modal fade detail-modal" data-url="<%= module %>/detail">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Подробная информация</h4>
+      </div>
+      <div class="modal-body">
+        <div class="loadable">
+          <div class="overlay">
+            <div class="spinner spinner-round"></div>
+          </div>
+          <div class="loadable-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

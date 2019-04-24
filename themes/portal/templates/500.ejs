@@ -1,0 +1,29 @@
+<% layout('./layouts/main') -%>
+
+<header>
+
+  <nav class="navbar navbar-default">
+    <%- partial("./parts/topnav") %>
+  </nav>
+
+  <div id="header-banner">
+    <div class="banner-content single-page text-center">
+      <div class="banner-info">
+        <h1>500</h1>
+        <p>Ошибка сервера</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="page-content" class="container">
+  <div class="pnf-content text-center">
+    <h2>ПРИНОСИМ ИЗВИНЕНИЯ!</h2>
+    <p class="lead">Запрашиваемая страница не найдена!</p>
+    <p>
+      <a href="<%= module %>" class="btn btn-lg btn-primary-filled">
+        <i class="fa fa-long-arrow-left"></i><span>Вернуться на Главную</span>
+      </a>
+    </p>
+  </div>
+</div>

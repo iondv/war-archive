@@ -1,0 +1,16 @@
+{
+  "code": "tabCalledRedandSovietArmy",
+  "orderNumber": 10,
+  "type": 1,
+  "title": "",
+  "caption": "Списки призванных в Красную и Советскую армию",
+  "classname": "listsCalledRedandSovietArmy@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

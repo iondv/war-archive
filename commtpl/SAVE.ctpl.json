@@ -1,0 +1,12 @@
+{
+  "namespace": "",
+  "metaVersion": "2.0.61.23689",
+  "id": "SAVE",
+  "caption": "Сохранить",
+  "visibilityCondition": null,
+  "enableCondition": null,
+  "needSelectedItem": false,
+  "signBefore": false,
+  "signAfter": false,
+  "isBulk": false
+}

@@ -1,0 +1,86 @@
+{
+  "tabs": [
+    {
+      "caption": "Значение справочника",
+      "fullFields": [
+        {
+          "caption": "Воинское звание",
+          "type": 1,
+          "property": "militaryRankCat",
+          "size": 2,
+          "maskName": null,
+          "mask": null,
+          "mode": 0,
+          "fields": [],
+          "columns": [],
+          "actions": null,
+          "commands": null,
+          "orderNumber": 20,
+          "required": true,
+          "visibility": null,
+          "enablement": null,
+          "obligation": null,
+          "readonly": false,
+          "selectionPaginated": true,
+          "validators": null,
+          "hint": "",
+          "historyDisplayMode": 0,
+          "tags": null,
+          "selConditions": [],
+          "selSorting": []
+        }
+      ],
+      "shortFields": []
+    }
+  ],
+  "actions": null,
+  "siblingFixBy": null,
+  "siblingNavigateBy": null,
+  "historyDisplayMode": 0,
+  "collectionFilters": null,
+  "version": null,
+  "overrideMode": 1,
+  "commands": [
+    {
+      "id": "EDIT",
+      "caption": "Изменить",
+      "visibilityCondition": null,
+      "enableCondition": null,
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "SAVE",
+      "caption": "Сохранить",
+      "visibilityCondition": null,
+      "enableCondition": null,
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "SAVEANDCLOSE",
+      "caption": "Сохранить и закрыть",
+      "visibilityCondition": null,
+      "enableCondition": null,
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "DELETE",
+      "caption": "Удалить",
+      "visibilityCondition": null,
+      "enableCondition": null,
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    }
+  ],
+  "metaVersion": "2.0.61.23689"
+}

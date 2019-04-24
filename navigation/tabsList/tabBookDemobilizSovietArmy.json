@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "code": "tabBookDemobilizSovietArmy",
+  "orderNumber": 80,
+  "type": 1,
+  "title": "",
+  "caption": "Книга учета демобилизованных из Советской Армии",
+  "classname": "bookDemobilizSovietArmy@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": null,
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

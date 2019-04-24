@@ -1,0 +1,12 @@
+{
+  "namespace": "khv-archive-vov",
+  "metaVersion": "2.0.61.23689",
+  "id": "SELECT",
+  "caption": "Выбрать",
+  "visibilityCondition": null,
+  "enableCondition": null,
+  "needSelectedItem": false,
+  "signBefore": false,
+  "signAfter": false,
+  "isBulk": false
+}

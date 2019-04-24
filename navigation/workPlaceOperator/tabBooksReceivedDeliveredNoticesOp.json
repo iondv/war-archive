@@ -1,0 +1,26 @@
+{
+  "namespace": "khv-archive-vov",
+  "code": "tabBooksReceivedDeliveredNoticesOp",
+  "orderNumber": 80,
+  "type": 1,
+  "title": "",
+  "caption": "Книги поступивших и врученных извещений семьям погибших",
+  "classname": "booksReceivedDeliveredNotices@khv-archive-vov",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [
+  {
+      "property": "_creator",
+      "operation": 0,
+      "value": [
+        "$$uid"
+      ],
+      "nestedConditions": []
+    }
+  ],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.23689"
+}

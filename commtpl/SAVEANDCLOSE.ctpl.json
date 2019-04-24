@@ -1,0 +1,12 @@
+{
+  "namespace": "",
+  "metaVersion": "2.0.61.23689",
+  "id": "SAVEANDCLOSE",
+  "caption": "Сохранить и закрыть",
+  "visibilityCondition": null,
+  "enableCondition": null,
+  "needSelectedItem": false,
+  "signBefore": false,
+  "signAfter": false,
+  "isBulk": false
+}

@@ -1,0 +1,45 @@
+<!-- main/contact -->
+<%
+const staticPrefix = `${module}/vov/`;
+%>
+<section id="contact" class="contact bg-light">
+  <div class="container">
+    <div class="page-header no-margin text-center">
+      <h2>КОНТАКТЫ</h2>
+      <div class="title-marker"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 contact-info">
+        <h4 class="text-brown text-center">
+          По вопросам получения копий документов и архивных справок
+        </h4>
+        <h5 class="text-center">
+          Краевое государственное бюджетное учреждение «Государственный Архив Хабаровского края»
+        </h5>
+        <p class="contact-address">
+          680000, г. Хабаровск, ул. Нагишкина, 4 «а»
+          <br>
+          Тел./факс: <a href="tel:+74212305115">(4212) 30-51-15</a>
+          <br>
+          E-mail: <a href="mailto:gakhk@archiv.khv.ru">gakhk@archiv.khv.ru</a>
+        </p>
+      </div>
+
+      <div class="col-sm-6 contact-info">
+        <h4 class="text-brown text-center">
+          По вопросам тиражирования модели общественно-государственного сотрудничества
+        </h4>
+        <h5 class="text-center">
+          Автономная некоммерческая организация «Дальневосточный центр социальных технологий»
+        </h5>
+        <p class="contact-address">
+          680000, г. Хабаровск, ул. Запарина,75
+          <br>
+          E-mail: <a href="mailto:proekt4212@gmail.com">proekt4212@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="map" class="map" data-placemark="<%= staticPrefix %>/images/placemark.png"></div>
+</section>
