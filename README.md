@@ -1,6 +1,6 @@
 # IONDV. War archive
 
-IONDV. War archive is the IONDV. Framework web-application designed to store, group and demonstrate the data based on archival documents about Great Patriotic War [World War II] so that the documents of the Khabarovsk Territory of Russia connected with the Great Patriotic War become more accessible to people.
+IONDV. War archive (project "Remember everyone", implemented by [Far East center of social technologies](https://dvcst.ru/), supported of the [Presidential Fund grants](https://президентскиегранты.рф)) is the IONDV. Framework web-application designed to store, group and demonstrate the data based on archival documents about Great Patriotic War [World War II] so that the documents of the Khabarovsk Territory of Russia connected with the Great Patriotic War become more accessible to people.
 
 The app is available only in russian.
 
