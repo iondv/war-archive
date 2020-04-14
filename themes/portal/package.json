@@ -1,0 +1,33 @@
+{
+  "name": "war-archive",
+  "version": "0.0.1",
+  "authors": [
+    "akumidv <akuminov@mail.ru>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ],
+  "bowerOtherVersionDependencies": {
+    "ionicons-min": "~2.0.1",
+    "store-js": "^2.0.4",
+    "bootstrap-daterangepicker": "^2.1.25",
+    "datatables.net-bs": "^2.1.1",
+    "jquery-mobile": "^1.4.5"
+  },
+  "dependencies": {
+	"ionicons-min": "git+https://git.iondv.com/node-modules/ionicons-min.git",
+	"store": "^1.3.20",
+	"bootstrap-daterangepicker": "git+https://github.com/dangrossman/daterangepicker.git#v2.1.25",
+	"datatables.net-bs": "1.10.20",
+	"jquery-mobile": "^1.4.1"
+  }
+}
