@@ -14,7 +14,7 @@ function DocSearchAdapter(options) {
     throw new Error('DocSearchAdapter: не указан репозиторий данных.');
   }
 
-  const className = options.className || 'basicArchDoc@khv-archive-vov';
+  const className = options.className || 'basicArchDoc@war-archive';
 
   /**
    * @param {{}} data

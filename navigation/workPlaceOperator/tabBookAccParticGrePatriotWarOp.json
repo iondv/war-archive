@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabBookAccParticGrePatriotWarOp",
   "orderNumber": 60,
   "type": 1,
   "title": "",
   "caption": "Книга учета участников Великой Отечественной войны",
-  "classname": "bookAccParticipGreatPatrioticWar@khv-archive-vov",
+  "classname": "bookAccParticipGreatPatrioticWar@war-archive",
   "container": null,
   "collection": null,
   "url": null,

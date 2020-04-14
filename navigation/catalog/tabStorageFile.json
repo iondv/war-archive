@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabStorageFile",
   "orderNumber": 0,
   "type": 1,
   "title": "",
   "caption": "Хранилище файлов",
-  "classname": "objectScanFile@khv-archive-vov",
+  "classname": "objectScanFile@war-archive",
   "container": null,
   "collection": null,
   "url": null,

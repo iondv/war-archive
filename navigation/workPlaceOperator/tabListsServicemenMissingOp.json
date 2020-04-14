@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabListsServicemenMissingOp",
   "orderNumber": 90,
   "type": 1,
   "title": "",
   "caption": "Списки военнослужащих, пропавших без вести",
-  "classname": "listsServicemenMissing@khv-archive-vov",
+  "classname": "listsServicemenMissing@war-archive",
   "container": null,
   "collection": null,
   "url": null,

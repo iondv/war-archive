@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabBookRecSearFormServicOp",
   "orderNumber": 50,
   "type": 1,
   "title": "",
   "caption": "Книга учета по розыску бывших военнослужащих",
-  "classname": "bookRecSearchFormerServicemen@khv-archive-vov",
+  "classname": "bookRecSearchFormerServicemen@war-archive",
   "container": null,
   "collection": null,
   "url": null,

@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabDocumMilitPersonnelHospOp",
   "orderNumber": 10,
   "type": 1,
   "title": "",
   "caption": "Документы о лечении военнослужащих в госпиталях",
-  "classname": "documentsMilitaryPersonnelHosps@khv-archive-vov",
+  "classname": "documentsMilitaryPersonnelHosps@war-archive",
   "container": null,
   "collection": null,
   "url": null,

@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "allPublishedDoc",
   "orderNumber": 20,
   "type": 1,
   "title": "",
   "caption": "Опубликованные документы",
-  "classname": "basicArchDoc@khv-archive-vov",
+  "classname": "basicArchDoc@war-archive",
   "container": null,
   "collection": null,
   "url": null,

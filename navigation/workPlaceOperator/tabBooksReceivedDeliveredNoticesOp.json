@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabBooksReceivedDeliveredNoticesOp",
   "orderNumber": 80,
   "type": 1,
   "title": "",
   "caption": "Книги поступивших и врученных извещений семьям погибших",
-  "classname": "booksReceivedDeliveredNotices@khv-archive-vov",
+  "classname": "booksReceivedDeliveredNotices@war-archive",
   "container": null,
   "collection": null,
   "url": null,

@@ -1,11 +1,11 @@
 {
-  "namespace": "khv-archive-vov",
+  "namespace": "war-archive",
   "code": "tabCatalogCase",
   "orderNumber": 15,
   "type": 1,
   "title": "",
   "caption": "Справочник Дел",
-  "classname": "case@khv-archive-vov",
+  "classname": "case@war-archive",
   "container": null,
   "collection": null,
   "url": null,
