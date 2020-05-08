@@ -1,5 +1,0 @@
-{
-  "directory": "./vendor",
-  "vendorDir": "./static/vendor",
-  "strict-ssl": false
-}

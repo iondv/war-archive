@@ -1,0 +1,22 @@
+{
+  "isPublic": false,
+  "isShowStorageFile": false,
+  "districtArchDoc": "83c29ee0-6580-11e9-a46d-7523763a3ee7",
+  "archLinkDoc": "d0d3c6f0-6580-11e9-a46d-7523763a3ee7",
+  "sheet": "1",
+  "surname": "Иванов",
+  "firstname": "Иван",
+  "secondname": "Петрович",
+  "dateBirth": "1920",
+  "education": "высшее",
+  "whenSentPart": "1941",
+  "teamPartSent": "вч 2000",
+  "guid": "e37e2640-6582-11e9-a46d-7523763a3ee7",
+  "dateCreate": "2019-04-23T04:47:24.836Z",
+  "_class": "listsCalledRedandSovietArmy@war-archive",
+  "_classVer": "",
+  "_creator": "admin@local",
+  "_editor": "admin@local",
+  "scanFileLink": "126f1f50-658c-11e9-997c-dbf9808b2983",
+  "___workflowStatus": {}
+}

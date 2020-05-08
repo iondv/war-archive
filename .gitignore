@@ -2,9 +2,7 @@ patches/
 .idea/
 /test/import/*.xlsx
 /test/import/*.xls
-/data/*
-!/data/data.zip
-
+themes/portal/static/node_modules
 themes/portal/vendor
 themes/portal/static/vendor
 themes/portal/static/js/*.min.js

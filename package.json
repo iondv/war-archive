@@ -7,7 +7,7 @@
     "url": "https://github.com/iondv/war-archive/issues"
   },
   "engines": {
-    "ion": "3.0.2"
+    "ion": "4.0.0"
   },
   "license": "gpl-3.0",
   "repository": {
@@ -15,10 +15,10 @@
     "url": "https://github.com/iondv/war-archive.git"
   },
   "ionModulesDependencies": {
-    "ionadmin": "3.0.1",
-    "registry": "3.0.1",
-    "portal": "1.4.0",
-    "dashboard": "1.1.7"
+    "ionadmin": "4.0.0",
+    "registry": "4.0.0",
+    "portal": "2.0.0",
+    "dashboard": "1.3.0"
   },
   "ionMetaDependencies": {},
   "devDependencies": {},

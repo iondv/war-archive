@@ -24,10 +24,10 @@
     "jquery-mobile": "^1.4.5"
   },
   "dependencies": {
-	"ionicons-min": "git+https://git.iondv.com/node-modules/ionicons-min.git",
-	"store": "^1.3.20",
-	"bootstrap-daterangepicker": "git+https://github.com/dangrossman/daterangepicker.git#v2.1.25",
-	"datatables.net-bs": "1.10.20",
-	"jquery-mobile": "^1.4.1"
+    "ionicons-min": "git+https://git.iondv.com/node-modules/ionicons-min.git",
+    "store": "^1.3.20",
+    "bootstrap-daterangepicker": "git+https://github.com/dangrossman/daterangepicker.git#v2.1.25",
+    "datatables.net-bs": "1.10.20",
+    "jquery-mobile": "^1.4.1"
   }
 }

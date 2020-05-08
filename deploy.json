@@ -3,7 +3,7 @@
   "globals": {
     "moduleTitles": {
       "registry": {
-        "description": "Реестр документов ВОВ ХК",
+        "description": "Реестр документов ВОВ",
         "order": 10,
         "skipModules": true
       },
@@ -15,7 +15,7 @@
         "initMethod": "init",
         "initLevel": 0,
         "options": {
-            "text": "Государственный архив Хабаровского края",
+            "text": "Военный архив",
             "font": {
               "family": "Ubuntu Mono",
               "name": "UbuntuMono-Regular",
@@ -296,7 +296,7 @@
         ],
         "statics":{
           "vov": "applications/war-archive/themes/portal/static",
-          "vendor": "applications/war-archive/themes/portal/vendor"
+          "vendor": "applications/war-archive/themes/portal/static/node_modules"
         },
         "pageTemplates": {
           "navigation": {
